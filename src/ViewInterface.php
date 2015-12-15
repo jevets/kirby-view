@@ -1,6 +1,6 @@
 <?php 
 
-namespace KirbyCasts\Kirby;
+namespace KirbyCasts\Kirby\View;
 
 interface ViewInterface
 {
