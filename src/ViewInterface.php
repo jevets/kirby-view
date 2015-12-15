@@ -18,7 +18,7 @@ interface ViewInterface
      * @param string $extension
      * @return void
      */
-    public static function setFileExtension($extension = '.php');
+    public static function setFileExtension($extension);
 
     /**
      * Get a rendered view as a string
