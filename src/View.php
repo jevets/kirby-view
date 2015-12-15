@@ -25,7 +25,7 @@ abstract class View implements ViewInterface
      * @return void
      */
     abstract public function __construct($options = array());
-    
+
     /**
      * Get a rendered view as a string
      *
@@ -33,5 +33,5 @@ abstract class View implements ViewInterface
      * @param array $data Data to pass to the view
      * @return string
      */
-    public function make($view, $data = []);
+    abstract public function make($view, $data = []);
 }
