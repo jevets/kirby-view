@@ -7,11 +7,10 @@ interface ViewInterface
     /**
      * Create an instance of the view
      *
-     * @param string $viewsDir
-     * @param string $cacheDir
+     * @param array $options
      * @return void
      */
-    public function __construct($viewsDir, $cacheDir = '');
+    public function __construct($options = array());
 
     /**
      * Set the file extension for the View engine
