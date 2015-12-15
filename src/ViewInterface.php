@@ -13,14 +13,6 @@ interface ViewInterface
     public function __construct($options = array());
 
     /**
-     * Set the file extension for the View engine
-     *
-     * @param string $extension
-     * @return void
-     */
-    public static function setFileExtension($extension);
-
-    /**
      * Get a rendered view as a string
      *
      * @param string $view filename of view
